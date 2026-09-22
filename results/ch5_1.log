@@ -1,0 +1,72 @@
+Cleverminer version  1.2.4
+Cleverminer version 1.2.4.
+Starting data preparation ...
+Automatically reordering numeric categories ...
+Automatically reordering numeric categories ...done
+Encoding columns into bit-form...
+Encoding columns into bit-form...done
+Data preparation finished.
+Will go for  4ftMiner
+Starting to mine rules.
+[38;2;255;0;0m  0%[39m|                                                    |Elapsed Time: 0:00:00[38;2;255;8;0m  1%[39m|                                                    |Elapsed Time: 0:00:00[38;2;255;13;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;15;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;15;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;25;0m  3%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;30;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;32;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;32;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;38;0m  5%[39m|###                                                 |Elapsed Time: 0:00:00[38;2;255;41;0m  6%[39m|###                                                 |Elapsed Time: 0:00:00[38;2;255;46;0m  7%[39m|###                                                 |Elapsed Time: 0:00:00[38;2;255;48;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;48;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;55;0m  8%[39m|####                                                |Elapsed Time: 0:00:01[38;2;255;79;0m  8%[39m|####                                                |Elapsed Time: 0:00:01[38;2;255;81;0m  9%[39m|####                                                |Elapsed Time: 0:00:01[38;2;255;82;0m  9%[39m|#####                                               |Elapsed Time: 0:00:01[38;2;255;82;0m  9%[39m|#####                                               |Elapsed Time: 0:00:01[38;2;255;86;0m 11%[39m|#####                                               |Elapsed Time: 0:00:01[38;2;255;88;0m 12%[39m|######                                              |Elapsed Time: 0:00:01[38;2;255;89;0m 12%[39m|######                                              |Elapsed Time: 0:00:01[38;2;255;93;0m 13%[39m|#######                                             |Elapsed Time: 0:00:02[38;2;255;96;0m 14%[39m|#######                                             |Elapsed Time: 0:00:02[38;2;255;99;0m 15%[39m|########                                            |Elapsed Time: 0:00:02[38;2;255;106;0m 18%[39m|#########                                           |Elapsed Time: 0:00:02[38;2;255;130;0m 27%[39m|##############                                      |Elapsed Time: 0:00:02[38;2;255;148;0m 33%[39m|#################                                   |Elapsed Time: 0:00:02[38;2;255;158;0m 37%[39m|###################                                 |Elapsed Time: 0:00:02[38;2;255;190;0m 45%[39m|#######################                             |Elapsed Time: 0:00:02[38;2;230;255;0m 65%[39m|##################################                  |Elapsed Time: 0:00:02[38;2;0;255;0m100%[39m|####################################################|Elapsed Time: 0:00:02
+Done. Total verifications : 228, rules 9, times: prep 1.60sec, processing 2.70sec
+Dataset has 15 variables.
+Variable Driver_Age_Band has 8 categories: 16 - 20 21 - 25 26 - 35 36 - 45 46 - 55 56 - 65 66 - 75 Over 75
+Variable Driver_IMD has 10 categories: 1 2 3 4 5 6 7 8 9 10
+Variable Sex has 2 categories: Female Male
+Variable Area has 2 categories: 1,Urban 2,Rural
+Variable Journey has 5 categories: 2,Commuting to/from work 3,Taking pupil to/from school 4,Pupil riding to/from school 5 Other/Not known Part of work
+Variable Road_Type has 5 categories: 1,Roundabout 2,One way street 3,Dual carriageway 6,Single carriageway 7,Slip road
+Variable Speed_limit has 8 categories: 10 15 20 30 40 50 60 70
+Variable Light has 5 categories: 1,Daylight 4,Darkness - lights lit 5,Darkness - lights unlit 6,Darkness - no lighting 7,Darkness - lighting unknown
+Variable Vehicle_Location has 10 categories: 0,On main c'way - not in restricted lane 1,Tram/Light rail track 2,Bus lane 3,Busway (including guided busway) 4,Cycle lane (on main carriageway) 5,Cycleway or shared use footway (not part of  main carriageway) 6,On lay-by or hard shoulder 7,Entering lay-by or hard shoulder 8,Leaving lay-by or hard shoulder 9,Footway (pavement)
+Variable Vehicle_Type has 20 categories: 10,Minibus (8 - 16 passenger seats) 16,Ridden horse 17,Agricultural vehicle 18,Tram 20,Goods over 3.5t. and under 7.5t 21,Goods 7.5 tonnes + 22,Mobility scooter 23,Electric motorcycle 4,Motorcycle over 125cc and up to 500cc 90,Other vehicle 97,Motorcycle - unknown cc 98,Goods vehicle - unknown weight Bus_coach_17+ Car Motorcycle 125cc and under Motorcycle 50cc and under Motorcycle over 500cc Pedal cycle Taxi/Private hire car Van / Goods 3.5 tonnes mgw or under
+Variable Vehicle_Age has 17 categories: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16-20 >20
+Variable Hit_Objects_in has 12 categories: 0 1 2 4 5 6 7 8 9 10 11 12
+Variable Hit_Objects_off has 12 categories: 0 1 2 3 4 5 6 7 8 9 10 11
+Variable Casualties has 7 categories: 1 2 3 4 5 6 7 - 68
+Variable Severity has 3 categories: Fatal Serious Slight
+
+List of rules:
+RULEID BASE  CONF  AAD    Rule
+     1  2135 0.040 +1.098 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+     2  2362 0.039 +1.056 Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     3  2138 0.039 +1.041 Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     4  3089 0.040 +1.079 Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     5  2436 0.040 +1.094 Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     6  4050 0.039 +1.017 Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+     7  3151 0.041 +1.145 Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     8  2110 0.039 +1.054 Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     9  2825 0.041 +1.119 Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+
+
+CleverMiner task processing summary:
+
+Task type : 4ftMiner
+Number of verifications : 228
+Number of rules : 9
+Total time needed : 00h 00m 04s
+Time of data preparation : 00h 00m 01s
+Time of rule mining : 00h 00m 02s
+
+
+
+Rule id : 1
+
+Base :  2135  Relative base : 0.004  CONF : 0.040  AAD : +1.098  BAD : -1.098
+
+Cedents:
+  antecedent : Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70)
+  succcedent : Severity(Fatal)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  | 2135|50861|
+----|-----|-----|
+¬A  | 8214|477779|
+----|-----|-----|
+
+
+

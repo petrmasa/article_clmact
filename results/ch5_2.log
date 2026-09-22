@@ -1,0 +1,284 @@
+Cleverminer version  1.2.4
+Cleverminer version 1.2.4.
+Starting data preparation ...
+Automatically reordering numeric categories ...
+Automatically reordering numeric categories ...done
+Encoding columns into bit-form...
+Encoding columns into bit-form...done
+Data preparation finished.
+Will go for  4ftMiner
+Starting to mine rules.
+[38;2;255;0;0m  0%[39m|                                                    |Elapsed Time: 0:00:00[38;2;255;8;0m  1%[39m|                                                    |Elapsed Time: 0:00:00[38;2;255;13;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;14;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;15;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;15;0m  2%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;24;0m  3%[39m|#                                                   |Elapsed Time: 0:00:00[38;2;255;30;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;30;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;32;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;32;0m  4%[39m|##                                                  |Elapsed Time: 0:00:00[38;2;255;32;0m  4%[39m|##                                                  |Elapsed Time: 0:00:01[38;2;255;40;0m  6%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;41;0m  6%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;46;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;47;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;48;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;48;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;49;0m  7%[39m|###                                                 |Elapsed Time: 0:00:01[38;2;255;79;0m  8%[39m|####                                                |Elapsed Time: 0:00:01[38;2;255;81;0m  9%[39m|####                                                |Elapsed Time: 0:00:01[38;2;255;81;0m  9%[39m|####                                                |Elapsed Time: 0:00:02[38;2;255;82;0m  9%[39m|#####                                               |Elapsed Time: 0:00:02[38;2;255;82;0m  9%[39m|#####                                               |Elapsed Time: 0:00:02[38;2;255;85;0m 10%[39m|#####                                               |Elapsed Time: 0:00:02[38;2;255;86;0m 11%[39m|#####                                               |Elapsed Time: 0:00:02[38;2;255;88;0m 12%[39m|######                                              |Elapsed Time: 0:00:02[38;2;255;89;0m 12%[39m|######                                              |Elapsed Time: 0:00:02[38;2;255;89;0m 12%[39m|######                                              |Elapsed Time: 0:00:02[38;2;255;92;0m 13%[39m|######                                              |Elapsed Time: 0:00:02[38;2;255;94;0m 13%[39m|#######                                             |Elapsed Time: 0:00:02[38;2;255;95;0m 14%[39m|#######                                             |Elapsed Time: 0:00:02[38;2;255;96;0m 14%[39m|#######                                             |Elapsed Time: 0:00:03[38;2;255;101;0m 16%[39m|########                                            |Elapsed Time: 0:00:03[38;2;255;106;0m 18%[39m|#########                                           |Elapsed Time: 0:00:03[38;2;255;116;0m 22%[39m|###########                                         |Elapsed Time: 0:00:03[38;2;255;141;0m 31%[39m|################                                    |Elapsed Time: 0:00:03[38;2;255;149;0m 33%[39m|#################                                   |Elapsed Time: 0:00:03[38;2;255;158;0m 37%[39m|###################                                 |Elapsed Time: 0:00:03[38;2;255;177;0m 43%[39m|######################                              |Elapsed Time: 0:00:03[38;2;234;255;0m 64%[39m|#################################                   |Elapsed Time: 0:00:03[38;2;0;255;0m100%[39m|####################################################|Elapsed Time: 0:00:03
+Done. Total verifications : 722, rules 238, times: prep 1.61sec, processing 3.66sec
+
+List of rules:
+RULEID BASE  CONF  AAD    Rule
+     1  2092 0.028 +0.442 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Sex(Male) => Severity(Fatal) | ---
+     2  1151 0.034 +0.766 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+     3  1098 0.033 +0.719 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+     4  1878 0.029 +0.522 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Sex(Male) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     5  1380 0.028 +0.436 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+     6  1222 0.030 +0.573 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     7  1174 0.029 +0.495 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     8  1075 0.029 +0.494 Driver_Age_Band(16 - 20 21 - 25) & Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+     9  1342 0.033 +0.712 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    10  1179 0.035 +0.847 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    11  1033 0.032 +0.644 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    12  1262 0.032 +0.670 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    13  1091 0.034 +0.790 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    14  1139 0.032 +0.660 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    15  2274 0.029 +0.486 Driver_Age_Band(16 - 20 21 - 25) & Sex(Male) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    16  1578 0.027 +0.422 Driver_Age_Band(16 - 20 21 - 25) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    17  1381 0.030 +0.572 Driver_Age_Band(16 - 20 21 - 25) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    18  1060 0.028 +0.483 Driver_Age_Band(16 - 20 21 - 25) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    19  1305 0.029 +0.495 Driver_Age_Band(16 - 20 21 - 25) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    20  1188 0.029 +0.492 Driver_Age_Band(16 - 20 21 - 25) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    21  1729 0.034 +0.756 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    22  1328 0.033 +0.703 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    23  1695 0.033 +0.733 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    24  1165 0.032 +0.685 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+    25  1532 0.033 +0.723 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    26  2084 0.028 +0.445 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    27  1802 0.031 +0.594 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    28  1379 0.029 +0.522 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    29  1775 0.029 +0.532 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    30  1220 0.029 +0.514 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    31  1616 0.029 +0.526 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    32  2208 0.034 +0.769 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    33  1866 0.037 +0.927 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    34  1685 0.033 +0.733 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    35  1423 0.036 +0.882 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    36  2139 0.034 +0.761 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    37  1784 0.037 +0.913 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    38  1461 0.033 +0.706 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+    39  1242 0.036 +0.861 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    40  1915 0.033 +0.743 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    41  1603 0.036 +0.900 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    42  2577 0.029 +0.486 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    43  2169 0.032 +0.648 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    44  1974 0.028 +0.436 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(50 60) => Severity(Fatal) | ---
+    45  1660 0.031 +0.589 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    46  2536 0.028 +0.450 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    47  2109 0.031 +0.596 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    48  1725 0.027 +0.418 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(60) => Severity(Fatal) | ---
+    49  1458 0.030 +0.576 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    50  2287 0.028 +0.438 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(60 70) => Severity(Fatal) | ---
+    51  1907 0.030 +0.587 Driver_Age_Band(16 - 20 21 - 25 26 - 35) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    52  1093 0.030 +0.567 Driver_Age_Band(21 - 25) & Vehicle_Type(Car) & Sex(Male) => Severity(Fatal) | ---
+    53  1423 0.030 +0.550 Driver_Age_Band(21 - 25) & Sex(Male) => Severity(Fatal) | ---
+    54  1184 0.033 +0.707 Driver_Age_Band(21 - 25) & Sex(Male) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    55  1156 0.036 +0.897 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    56  1162 0.036 +0.872 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    57  1043 0.036 +0.859 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    58  1378 0.030 +0.539 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    59  1153 0.033 +0.733 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    60  1036 0.028 +0.475 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(50 60) => Severity(Fatal) | ---
+    61  1410 0.028 +0.479 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    62  1162 0.032 +0.645 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    63  1273 0.028 +0.468 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(60 70) => Severity(Fatal) | ---
+    64  1048 0.031 +0.632 Driver_Age_Band(21 - 25 26 - 35) & Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    65  1572 0.038 +0.955 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    66  1288 0.042 +1.188 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    67  1182 0.037 +0.934 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    68  1553 0.037 +0.938 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    69  1254 0.041 +1.159 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    70  1008 0.036 +0.900 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+    71  1379 0.037 +0.913 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    72  1116 0.041 +1.136 Driver_Age_Band(21 - 25 26 - 35) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    73  1806 0.031 +0.630 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    74  1468 0.036 +0.849 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    75  1361 0.030 +0.585 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(50 60) => Severity(Fatal) | ---
+    76  1106 0.035 +0.801 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    77  1815 0.030 +0.577 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    78  1454 0.034 +0.766 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    79  1169 0.030 +0.560 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(60) => Severity(Fatal) | ---
+    80  1623 0.030 +0.558 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(60 70) => Severity(Fatal) | ---
+    81  1302 0.034 +0.748 Driver_Age_Band(21 - 25 26 - 35) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    82  1497 0.036 +0.892 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    83  1135 0.036 +0.858 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    84  1544 0.036 +0.888 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    85  1385 0.036 +0.870 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+    86  1802 0.029 +0.517 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    87  1486 0.033 +0.719 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    88  1366 0.028 +0.464 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(50 60) => Severity(Fatal) | ---
+    89  1122 0.032 +0.665 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    90  1892 0.029 +0.489 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+    91  1536 0.032 +0.659 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    92  1183 0.028 +0.441 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(60) => Severity(Fatal) | ---
+    93  1709 0.028 +0.475 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(60 70) => Severity(Fatal) | ---
+    94  1390 0.032 +0.648 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    95  2208 0.038 +0.981 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+    96  1738 0.043 +1.216 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    97  1663 0.037 +0.952 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+    98  1333 0.042 +1.208 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+    99  2252 0.038 +0.998 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   100  1745 0.043 +1.215 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   101  1416 0.037 +0.911 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+   102  1146 0.042 +1.177 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   103  2005 0.038 +0.973 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   104  1558 0.042 +1.193 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   105  2536 0.032 +0.645 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   106  1994 0.036 +0.857 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   107  1917 0.031 +0.601 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(50 60) => Severity(Fatal) | ---
+   108  1527 0.035 +0.823 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   109  2631 0.031 +0.636 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   110  2037 0.035 +0.814 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   111  1644 0.030 +0.569 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(60) => Severity(Fatal) | ---
+   112  1322 0.035 +0.802 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   113  2358 0.031 +0.616 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(60 70) => Severity(Fatal) | ---
+   114  1832 0.035 +0.799 Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   115  1022 0.031 +0.594 Driver_Age_Band(26 - 35) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   116  1128 0.028 +0.456 Driver_Age_Band(26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   117  1216 0.028 +0.469 Driver_Age_Band(26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   118  1098 0.028 +0.453 Driver_Age_Band(26 - 35 36 - 45) & Vehicle_Type(Car) & Speed_limit(60 70) => Severity(Fatal) | ---
+   119  1502 0.037 +0.937 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   120  1137 0.042 +1.162 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   121  1133 0.037 +0.938 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+   122  1576 0.039 +1.008 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   123  1184 0.043 +1.234 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   124  1402 0.038 +0.980 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   125  1057 0.042 +1.211 Driver_Age_Band(26 - 35 36 - 45) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   126  1729 0.031 +0.634 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   127  1314 0.035 +0.830 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   128  1307 0.031 +0.615 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(50 60) => Severity(Fatal) | ---
+   129  1021 0.035 +0.844 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   130  1838 0.032 +0.673 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   131  1387 0.036 +0.854 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   132  1116 0.030 +0.576 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(60) => Severity(Fatal) | ---
+   133  1647 0.032 +0.652 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(60 70) => Severity(Fatal) | ---
+   134  1249 0.035 +0.838 Driver_Age_Band(26 - 35 36 - 45) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   135  1163 0.035 +0.843 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   136  1266 0.037 +0.909 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   137  1138 0.036 +0.888 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   138  1431 0.028 +0.481 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   139  1136 0.032 +0.659 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   140  1107 0.028 +0.481 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(50 60) => Severity(Fatal) | ---
+   141  1580 0.029 +0.529 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   142  1248 0.033 +0.694 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   143  1431 0.029 +0.515 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(60 70) => Severity(Fatal) | ---
+   144  1132 0.032 +0.682 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   145  1979 0.038 +0.986 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   146  1463 0.042 +1.199 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   147  1528 0.039 +1.027 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+   148  1166 0.044 +1.278 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   149  2135 0.040 +1.098 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   150  1555 0.044 +1.297 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   151  1295 0.038 +0.977 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+   152  1002 0.043 +1.241 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   153  1902 0.040 +1.070 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   154  1391 0.044 +1.272 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   155  2281 0.032 +0.674 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   156  1696 0.036 +0.854 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   157  1763 0.032 +0.689 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(50 60) => Severity(Fatal) | ---
+   158  1344 0.036 +0.893 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   159  2487 0.034 +0.755 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   160  1827 0.037 +0.910 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   161  1507 0.032 +0.648 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(60) => Severity(Fatal) | ---
+   162  1164 0.036 +0.865 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   163  2231 0.033 +0.733 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(60 70) => Severity(Fatal) | ---
+   164  1647 0.036 +0.892 Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   165  1113 0.040 +1.094 Driver_Age_Band(36 - 45 46 - 55) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   166  1258 0.043 +1.253 Driver_Age_Band(36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   167  1126 0.043 +1.224 Driver_Age_Band(36 - 45 46 - 55) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   168  1282 0.033 +0.737 Driver_Age_Band(36 - 45 46 - 55) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   169  1012 0.034 +0.764 Driver_Age_Band(36 - 45 46 - 55) & Speed_limit(50 60) => Severity(Fatal) | ---
+   170  1465 0.036 +0.888 Driver_Age_Band(36 - 45 46 - 55) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   171  1023 0.039 +1.013 Driver_Age_Band(36 - 45 46 - 55) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   172  1319 0.036 +0.865 Driver_Age_Band(36 - 45 46 - 55) & Speed_limit(60 70) => Severity(Fatal) | ---
+   173  1076 0.032 +0.671 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   174  1421 0.041 +1.146 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   175  1118 0.042 +1.199 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+   176  1620 0.045 +1.340 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   177  1100 0.048 +1.475 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   178  1449 0.044 +1.304 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   179  1638 0.034 +0.793 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   180  1155 0.037 +0.930 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   181  1294 0.035 +0.831 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(50 60) => Severity(Fatal) | ---
+   182  1875 0.038 +0.964 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   183  1304 0.039 +1.056 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   184  1104 0.034 +0.773 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(60) => Severity(Fatal) | ---
+   185  1685 0.037 +0.935 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(60 70) => Severity(Fatal) | ---
+   186  1181 0.039 +1.032 Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   187  1059 0.041 +1.129 Driver_Age_Band(46 - 55 56 - 65) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   188  1083 0.049 +1.534 Driver_Age_Band(46 - 55 56 - 65 66 - 75) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   189  1089 0.037 +0.931 Driver_Age_Band(46 - 55 56 - 65 66 - 75) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   190  1254 0.042 +1.165 Driver_Age_Band(46 - 55 56 - 65 66 - 75) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   191  1123 0.041 +1.125 Driver_Age_Band(46 - 55 56 - 65 66 - 75) & Speed_limit(60 70) => Severity(Fatal) | ---
+   192  2676 0.036 +0.855 Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   193  2281 0.038 +0.997 Vehicle_Type(Car) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   194  2095 0.036 +0.852 Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+   195  1783 0.038 +0.995 Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   196  2786 0.037 +0.903 Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   197  2362 0.039 +1.056 Vehicle_Type(Car) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   198  1825 0.035 +0.821 Vehicle_Type(Car) & Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+   199  1559 0.038 +0.967 Vehicle_Type(Car) & Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   200  2516 0.036 +0.885 Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   201  2138 0.039 +1.041 Vehicle_Type(Car) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   202  1031 0.031 +0.624 Vehicle_Type(Car) & Speed_limit(40 50) => Severity(Fatal) | ---
+   203  3276 0.029 +0.512 Vehicle_Type(Car) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   204  2787 0.032 +0.670 Vehicle_Type(Car) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   205  2562 0.029 +0.487 Vehicle_Type(Car) & Speed_limit(50 60) => Severity(Fatal) | ---
+   206  2173 0.032 +0.642 Vehicle_Type(Car) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   207  3436 0.029 +0.528 Vehicle_Type(Car) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   208  2897 0.032 +0.676 Vehicle_Type(Car) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   209  2245 0.028 +0.465 Vehicle_Type(Car) & Speed_limit(60) => Severity(Fatal) | ---
+   210  1911 0.031 +0.623 Vehicle_Type(Car) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   211  3119 0.029 +0.515 Vehicle_Type(Car) & Speed_limit(60 70) => Severity(Fatal) | ---
+   212  2635 0.032 +0.665 Vehicle_Type(Car) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   213  1296 0.039 +1.011 Sex(Male) & Speed_limit(40 50) => Severity(Fatal) | ---
+   214  3894 0.037 +0.933 Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+   215  3089 0.040 +1.079 Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   216  3028 0.037 +0.942 Sex(Male) & Speed_limit(50 60) => Severity(Fatal) | ---
+   217  2436 0.040 +1.094 Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   218  4050 0.039 +1.017 Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+   219  3151 0.041 +1.145 Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   220  2598 0.036 +0.896 Sex(Male) & Speed_limit(60) => Severity(Fatal) | ---
+   221  2110 0.039 +1.054 Sex(Male) & Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   222  3620 0.038 +0.990 Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+   223  2825 0.041 +1.119 Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   224  1022 0.044 +1.277 Sex(Male) & Speed_limit(70) => Severity(Fatal) | ---
+   225  1005 0.032 +0.670 Speed_limit(40) => Severity(Fatal) | ---
+   226  1484 0.033 +0.734 Speed_limit(40 50) => Severity(Fatal) | ---
+   227  1135 0.036 +0.856 Speed_limit(40 50) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   228  4548 0.031 +0.629 Speed_limit(40 50 60) => Severity(Fatal) | ---
+   229  3636 0.034 +0.775 Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   230  3543 0.031 +0.618 Speed_limit(50 60) => Severity(Fatal) | ---
+   231  2866 0.034 +0.769 Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   232  4760 0.032 +0.676 Speed_limit(50 60 70) => Severity(Fatal) | ---
+   233  3737 0.034 +0.795 Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   234  3064 0.030 +0.583 Speed_limit(60) => Severity(Fatal) | ---
+   235  2501 0.033 +0.741 Speed_limit(60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   236  4281 0.032 +0.656 Speed_limit(60 70) => Severity(Fatal) | ---
+   237  3372 0.034 +0.776 Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+   238  1217 0.036 +0.872 Speed_limit(70) => Severity(Fatal) | ---
+
+
+CleverMiner task processing summary:
+
+Task type : 4ftMiner
+Number of verifications : 722
+Number of rules : 238
+Total time needed : 00h 00m 05s
+Time of data preparation : 00h 00m 01s
+Time of rule mining : 00h 00m 03s
+
+#   OrigId  Score  Base  Conf    Rule
+  1     96  19.70  1738  0.0425  Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  2    100  19.71  1745  0.0425  Driver_Age_Band(21 - 25 26 - 35 36 - 45) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  3    148  19.56  1166  0.0437  Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  4    150  20.66  1555  0.0441  Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  5    154  19.91  1391  0.0436  Driver_Age_Band(26 - 35 36 - 45 46 - 55) & Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  6    166  19.34  1258  0.0433  Driver_Age_Band(36 - 45 46 - 55) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+  7    176  21.51  1620  0.0449  Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+  8    177  23.01  1100  0.0475  Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+  9    178  20.55  1449  0.0442  Driver_Age_Band(36 - 45 46 - 55 56 - 65) & Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+ 10    188  24.20  1083  0.0487  Driver_Age_Band(46 - 55 56 - 65 66 - 75) & Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+ 11    214  20.15  3894  0.0371  Sex(Male) & Speed_limit(40 50 60) => Severity(Fatal) | ---
+ 12    215  20.41  3089  0.0399  Sex(Male) & Speed_limit(40 50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+ 13    217  19.31  2436  0.0402  Sex(Male) & Speed_limit(50 60) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+ 14    218  21.51  4050  0.0387  Sex(Male) & Speed_limit(50 60 70) => Severity(Fatal) | ---
+ 15    219  21.46  3151  0.0412  Sex(Male) & Speed_limit(50 60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+ 16    222  20.30  3620  0.0382  Sex(Male) & Speed_limit(60 70) => Severity(Fatal) | ---
+ 17    223  20.44  2825  0.0407  Sex(Male) & Speed_limit(60 70) & Journey(5 Other/Not known) => Severity(Fatal) | ---
+ 18    224  19.26  1022  0.0437  Sex(Male) & Speed_limit(70) => Severity(Fatal) | ---
+ 19    232  19.19  4760  0.0322  Speed_limit(50 60 70) => Severity(Fatal) | ---
